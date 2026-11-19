@@ -1,0 +1,593 @@
+{
+  "data_root": "/Users/punithc/Downloads/processed_dataset (5)",
+  "classes": [
+    "APPLE ROT LEAVES",
+    "HEALTHY LEAVES",
+    "LEAF BLOTCH",
+    "SCAB LEAVES"
+  ],
+  "file_count": 1005,
+  "image_sizes": {
+    "224x224": 1005
+  },
+  "unreadable_images": [],
+  "class_counts_including_augmented_copies": {
+    "train": {
+      "APPLE ROT LEAVES": 216,
+      "HEALTHY LEAVES": 96,
+      "LEAF BLOTCH": 234,
+      "SCAB LEAVES": 333
+    },
+    "val": {
+      "APPLE ROT LEAVES": 15,
+      "HEALTHY LEAVES": 7,
+      "LEAF BLOTCH": 17,
+      "SCAB LEAVES": 24
+    },
+    "test": {
+      "APPLE ROT LEAVES": 16,
+      "HEALTHY LEAVES": 7,
+      "LEAF BLOTCH": 16,
+      "SCAB LEAVES": 24
+    }
+  },
+  "clean_source_image_counts_after_exclusions": {
+    "train": {
+      "APPLE ROT LEAVES": 66,
+      "HEALTHY LEAVES": 29,
+      "LEAF BLOTCH": 76,
+      "SCAB LEAVES": 104
+    },
+    "val": {
+      "APPLE ROT LEAVES": 14,
+      "HEALTHY LEAVES": 7,
+      "LEAF BLOTCH": 16,
+      "SCAB LEAVES": 23
+    },
+    "test": {
+      "APPLE ROT LEAVES": 14,
+      "HEALTHY LEAVES": 7,
+      "LEAF BLOTCH": 16,
+      "SCAB LEAVES": 23
+    }
+  },
+  "source_id_conflicts": [
+    {
+      "source_id": "1036.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1036.JPG_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1036.JPG_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1036.JPG_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1036.JPG_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1036.JPG_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1036.JPG_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "1062.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1062.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1062.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1062.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1062.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1062.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1062.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "1070.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1070.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1070.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1070.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1070.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1070.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1070.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "3095.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "LEAF BLOTCH",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3095.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3095.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3095.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3095.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3095.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3095.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "3097.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "classes": [
+        "LEAF BLOTCH",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3097.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3097.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/LEAF BLOTCH/3097.jpg_2.jpg"
+        },
+        {
+          "split": "test",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/test/SCAB LEAVES/3097.jpg_0.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "3099.jpg",
+      "splits": [
+        "train",
+        "val"
+      ],
+      "classes": [
+        "LEAF BLOTCH",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3099.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3099.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/3099.jpg_2.jpg"
+        },
+        {
+          "split": "val",
+          "class": "LEAF BLOTCH",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/val/LEAF BLOTCH/3099.jpg_0.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4009.jpg",
+      "splits": [
+        "train",
+        "val"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4009.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4009.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4009.jpg_2.jpg"
+        },
+        {
+          "split": "val",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/val/APPLE ROT LEAVES/4009.jpg_0.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4010.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4010.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4010.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4010.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4010.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4010.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4010.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4013.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4013.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4013.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4013.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4013.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4013.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4013.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4014.jpg",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4014.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4014.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/4014.jpg_2.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4014.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4014.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4014.jpg_2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4015.jpg",
+      "splits": [
+        "test",
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4015.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4015.jpg_1.jpg"
+        },
+        {
+          "split": "train",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/SCAB LEAVES/4015.jpg_2.jpg"
+        },
+        {
+          "split": "test",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/test/APPLE ROT LEAVES/4015.jpg_0.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "4016.jpg",
+      "splits": [
+        "test",
+        "val"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "SCAB LEAVES"
+      ],
+      "files": [
+        {
+          "split": "val",
+          "class": "SCAB LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/val/SCAB LEAVES/4016.jpg_0.jpg"
+        },
+        {
+          "split": "test",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/test/APPLE ROT LEAVES/4016.jpg_0.jpg"
+        }
+      ]
+    }
+  ],
+  "exact_pixel_duplicate_groups": [
+    {
+      "pixel_sha256": "822eec16c80f67253ed1155944462778004f2602ef1c450e7006756c6929b4a3",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1036.JPG_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1036.JPG_0.jpg"
+        }
+      ]
+    },
+    {
+      "pixel_sha256": "d60e8fdcf643639c77451f8671cb57ba1dc8009435067db86995255ab71370fd",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1062.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1062.jpg_0.jpg"
+        }
+      ]
+    },
+    {
+      "pixel_sha256": "b14c24caa7d11d8560c9ee28015aff3dc5c4af8c4e5b12cccacc34411a4c2146",
+      "splits": [
+        "train"
+      ],
+      "classes": [
+        "APPLE ROT LEAVES",
+        "HEALTHY LEAVES"
+      ],
+      "files": [
+        {
+          "split": "train",
+          "class": "APPLE ROT LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/APPLE ROT LEAVES/1070.jpg_0.jpg"
+        },
+        {
+          "split": "train",
+          "class": "HEALTHY LEAVES",
+          "path": "/Users/punithc/Downloads/processed_dataset (5)/train/HEALTHY LEAVES/1070.jpg_0.jpg"
+        }
+      ]
+    }
+  ],
+  "excluded_source_ids": [
+    "1036.jpg",
+    "1062.jpg",
+    "1070.jpg",
+    "3095.jpg",
+    "3097.jpg",
+    "3099.jpg",
+    "4009.jpg",
+    "4010.jpg",
+    "4013.jpg",
+    "4014.jpg",
+    "4015.jpg",
+    "4016.jpg"
+  ],
+  "source_overlap_after_exclusions": {
+    "train/val": [],
+    "train/test": [],
+    "val/test": []
+  },
+  "label_review_limitation": "Conflicting duplicate labels are reported, but remaining labels have not been independently verified by an agricultural expert."
+}

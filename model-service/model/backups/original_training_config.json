@@ -1,0 +1,17 @@
+{
+  "architecture": "MobileNetV2 transfer learning",
+  "dataset_root": "processed_dataset",
+  "input_size": [224, 224],
+  "batch_size": 32,
+  "seed": 42,
+  "pretrained_weights_path": "/tmp/mobilenetv2_notop.h5",
+  "head_epochs": 10,
+  "fine_tune_epochs": 6,
+  "fine_tune_at_layer": 120,
+  "head_learning_rate": 0.001,
+  "fine_tune_learning_rate": 0.00001,
+  "classifier_head": "GlobalAveragePooling2D, Dropout(0.3), Dense(128, relu), Dropout(0.3), Dense(4, softmax)",
+  "output_directory": "model_out",
+  "original_model_file": "apple_disease_mobilenetv2.original.keras",
+  "original_model_sha256": "c307ed31af88b1186fb8f77273b272e52934052480605d11a770d8900598a4da"
+}

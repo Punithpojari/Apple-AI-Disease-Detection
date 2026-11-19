@@ -1,0 +1,6 @@
+export const MODEL_CLASS_NAMES = [
+  "APPLE ROT LEAVES",
+  "HEALTHY LEAVES",
+  "LEAF BLOTCH",
+  "SCAB LEAVES",
+];

@@ -1,0 +1,17 @@
+{
+  "description": "Reviewed source-image IDs with visually duplicated images assigned conflicting class labels in the supplied processed_dataset (5). Exclude every copy of these source images from training, validation, and testing.",
+  "source_ids": [
+    "1036.jpg",
+    "1062.jpg",
+    "1070.jpg",
+    "3095.jpg",
+    "3097.jpg",
+    "3099.jpg",
+    "4009.jpg",
+    "4010.jpg",
+    "4013.jpg",
+    "4014.jpg",
+    "4015.jpg",
+    "4016.jpg"
+  ]
+}
